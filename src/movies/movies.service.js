@@ -34,7 +34,7 @@ function readTheatersByMovie(movie_id) {
 
 function readReviewsByMovie(movie_id) {
   return knex("reviews as r")
-    .join("ccritics as c", "c.critic_id", "r.critic_id")
+    .join("critics as c", "c.critic_id", "r.critic_id")
     .select("r.*", "c.*")
     .where({ "r.movie_id": movie_id })
     .then(reviews => reviews.map(review => addCritic(review)));
