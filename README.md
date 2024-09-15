@@ -1,19 +1,21 @@
 **WeLoveMovies**
-_________________________________________________
+-------------------
 
 A comprehesive API for browsing movies, theaters and reviews. Follows RESTful API design principles.
 
 
 **Tech Stack:**
-_________________________________________________
+---------------------
+
 - Node.js: server environment for backend.
 - Express: library for API development.
 - Knex: manages API queries and connections.
 - PostgreSQL: SQL database.
 - ElephantSQL: host of PostgreSQL instance.
 
+
 API Calls
-__________________________________________________
+--------------------
 
 | Method | Route | Description |
 | --- | --- | --- |
